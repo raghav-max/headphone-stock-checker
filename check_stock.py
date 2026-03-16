@@ -10,6 +10,7 @@ def check_stock():
     variants = data["product"]["variants"]
 
     for v in variants:
+        print(v)
         qty = v["inventory_quantity"]
 
         if qty > 0:
