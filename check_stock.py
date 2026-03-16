@@ -14,7 +14,9 @@ def notify(msg):
             "user": USER_KEY,
             "message": msg,
             "title": "Headphone Restock Alert",
-            "priority": 2
+            "priority": 2,
+            "retry": 60,
+            "expire": 3600
         }
     )
 
