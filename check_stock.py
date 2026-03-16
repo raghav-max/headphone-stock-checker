@@ -28,6 +28,7 @@ def check_stock():
     for v in variants:
         print(v)
         qty = v["inventory_quantity"]
+        notify("Test notification from GitHub Actions")
 
         if qty > 0:
             notify(
