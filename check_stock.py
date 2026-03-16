@@ -16,7 +16,8 @@ def notify(msg):
             "title": "Headphone Restock Alert",
             "priority": 2,
             "retry": 60,
-            "expire": 3600
+            "expire": 3600,
+            "sound": "alien"
         }
     )
 
