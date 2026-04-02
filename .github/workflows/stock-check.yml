@@ -3,8 +3,6 @@ name: Headphone Stock Checker
 on:
   repository_dispatch:
     types: [stock_check]
-  schedule:
-    - cron: "*/5 * * * *"   # run every 5 minutes
   workflow_dispatch:
 
 jobs:
